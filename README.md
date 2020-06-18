@@ -37,7 +37,7 @@ Installation
 cordova plugin add cordova-plugin-oauth --variable URL_SCHEME=mycoolapp
 ```
 
-URL_SCHEME will be registered as the scheme tp be used as the OAuth callback URL, 
+URL_SCHEME will be registered as the scheme to be used as the OAuth callback URL, 
 and expects a host of `oauth_callback` (i.e., if your app's ID is `mycoolapp`, 
 your OAuth redirect URL should be `mycoolapp://oauth_callback`).
 
